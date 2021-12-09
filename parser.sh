@@ -2,6 +2,7 @@
 # Autosys JIL parser
 # It parses the output of "autorep -q -J *" into '~' seperated file.
 
+# Input file contains output data of autosys command `autorep -q -J *`
 jil_file=$1
 parsed_file=$2
 
